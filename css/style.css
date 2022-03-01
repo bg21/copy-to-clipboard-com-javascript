@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+body {
+
+  min-height: 100vh;
+  background: #3c74e6;
+}
+
+#alert {
+  width: 100%;
+  text-align: center;
+  background-color: #28c742;
+  color: #ffffff;
+  display: none;
+  padding: 10px;
+}
+
+.text-box {
+  position: relative;
+  background: #fff;
+  max-width: 650px;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.text-box .top-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.text-box .top-area h2 {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.text-box .top-area .copy-btn {
+  background: #333;
+  color: #999;
+  font-size: 1.5em;
+  width: 52px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.text-box .top-area .copy-btn:hover {
+  color: #fff;
+}
+
+.text-box textarea {
+  width: 100%;
+  min-height: 450px;
+  font-size: 1em;
+  padding: 10px;
+  outline: none;
+  resize: none;
+  border-radius: 5px;
+}
+
+h2 {
+  color: #333;
+}
